@@ -1,0 +1,11 @@
+CSS = Hojas de estilo en cascada, maquetacion, bonita, maquillaje
+Contenido : 
+    Selectores
+       *pseudoelementos
+            atributo : valor;
+       *etiquetas
+            atributo : valor;
+       *identificadores
+            atributo : valor;
+       *clases
+           atributo :valor ;

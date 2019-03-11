@@ -1,0 +1,26 @@
+body{
+	max-width: 1024px
+}
+header{
+	/*color de fondo*/
+	background: #AA1244;
+	/*Color de letter*/
+	color: white;
+	text-align: center;
+
+}
+/*esto funciona para los li del menu , si no se pone header nav ul o la ruta de etiquetas que deba seguir, se lo asigna a todo li de la pagina*/
+header nav ul li{
+	background: orange;
+	border-radius: 5px;
+	color: black;
+      display: inline-block;
+      width: 90px;
+}
+
+
+header nav ul li:hover{
+	background: black;
+	color: orange;
+
+}	
