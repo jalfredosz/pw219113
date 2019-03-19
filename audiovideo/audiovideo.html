@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>AUDIO/VIDEO HTML5</title>
+	<style>
+		video{
+			border-radius: 5px;
+			box-shadow: 10px 10px blue;
+			width: 300px;
+		}
+	</style>
+</head>
+<body>
+    Etiquetas para audio y video. <br>
+    <audio controls loop autoplay preload="auto">  <!-- No se recomienda usar preload auto, ya que si nuestro sitio va abrir en un dispositivo movil, estaria consumiendole mas datos automaticamente ademas de cargar la pagina, estaria bajando el audio o video , controls es para que muestre todas las opciones para controlar el video o audio, play, subir bajar volumen, loop es para que se repita infinitamente, autoplay para que se reproduzca en automatico sin darle play, aunque no funciona con audio solo con video-->
+    <source src="media/audio/audiohtml5.mp4">
+    </audio>
+     <audio controls loop autoplay preload="auto">
+    	<source src="media/audio/musica.mp3">
+    </audio>
+    <video controls loop autoplay preload="auto">
+    	<source src="media/video/Chrome_ImF.mp4" >
+    	<source src="media/video/Chrome_ImF.ogv" >
+    	<source src="media/video/Chrome_ImF.webm" >
+    </video>
+    <video controls loop autoplay preload="auto">
+    	<source src="media/video/html5.mp4">
+    	<source src="media/video/html5.webm">
+
+    </video>
+</body>
+</html>
