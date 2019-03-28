@@ -1,0 +1,21 @@
+JavaScript: Web - Interpretrado
+  Si es un lenguaje de programacion
+  Para que sirve:
+     Interaccion con el usuario
+     Manipulacion DOM
+       Document Object Model
+ Comparte con java:
+     Sintaxis
+     Punto y coma opcional
+
+     scripts siempre van al final de la pagina(pregunta de examen)
+
+ Cubrir: 
+ Interaccion 
+ arrastrar y soltar
+ webworkers
+ almacenamiento local y session
+ notificaciones
+ geolocalizacion
+ paquetes NPM(Node)
+ Electron - Vue.js
